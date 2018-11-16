@@ -23,7 +23,7 @@
   </tr>
   <tr>
     <td>Eml_datetime</td>
-    <td>郵件時間</td> 
+    <td>寄件時間</td> 
     <td>datetime</td>
   </tr>
   <tr>
@@ -32,9 +32,29 @@
     <td>nvarchar(50)</td>
   </tr>
   <tr>
-    <td>type</td>
-    <td>掃描狀態</td> 
-    <td>nvarchar(50)</td>
+    <td>time</td>
+    <td>執行時間</td> 
+    <td>datetime</td>
+  </tr>
+  <tr>
+    <td>time</td>
+    <td>執行時間</td> 
+    <td>datetime</td>
+  </tr>
+  <tr>
+    <td>MessageID</td>
+    <td>Email ID</td> 
+    <td>nvarchar(MAX)</td>
+  </tr>
+  <tr>
+    <td>Subject</td>
+    <td>標題</td> 
+    <td>nvarchar(MAX)</td>
+  </tr>
+  <tr>
+    <td>Uid</td>
+    <td>POP ID</td> 
+    <td>nvarchar(MAX)</td>
   </tr>
 </table>
   </ul>
