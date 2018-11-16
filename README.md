@@ -5,6 +5,7 @@
   給定Email帳號密碼、POP伺服器名稱、連接埠，以POP3協定運作之所有Email。此處以爬取個人OUTLOOK信箱為例，需於OUTLOOK中設定權限授權：
   <img src="https://github.com/superRenh/Email-Crawler/blob/master/images/pop%E8%A8%AD%E5%AE%9A.JPG" width="80%" height="80%" style="float.center">
   <li>爬取欄位：</li>
+  Email的標題、內容、寄件者、收件者、寄件時間、Message ID、附件檔案(另存於指定資料夾)、詞頻(Term Frequency) 
   <li></li>
 </ul>
 
