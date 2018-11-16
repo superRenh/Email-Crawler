@@ -124,4 +124,13 @@
 </ul>
 
 ## <ins>環境設定(Python3.6, MSSQL)<ins>
+1. 下載資料庫套件</br>
+`pip install pyodbc`
+2. 下載email套件</br>
+`pip install email`</br>
+3. 下載文本分析套件</br>
+`pip install Pillow`</br>
+4. 下載連接pop server套件</br>
+`pip install poplib`</br>
+5. others: <a href="https://github.com/superRenh/Earthsquad/blob/master/requirement.txt">Requirement.txt</a>
 ## <ins>config檔設定<ins>
