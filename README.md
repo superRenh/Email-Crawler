@@ -8,7 +8,7 @@
   Email的標題、內容、寄件者、收件者、寄件時間、Message ID、附件檔案(另存於指定資料夾)、並從內容中分析出每封信的詞頻(Term Frequency)
   <li>運作模式：</li>
     <ol type="I">
-      <li>將爬取過的Email存入eml_log資料表，後續用於判別不重複爬取。</li>
+      <li>將爬取過的Email存入eml_log資料表，後續用Uid判別不重複爬取。</li>
       <li>依掃描規則將符合目標之Email儲存於email_pop資料表，並將附件檔案另存於指定資料夾。</li>
       <li>將存入email_pop資料表的Email，於POP Server端刪除。</li>
     </ol>
