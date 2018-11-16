@@ -53,6 +53,68 @@
   </tr>
 </table>
       <li>email_pop：</li>
+      <table style="width:100%">
+  <tr>
+    <th>欄位名稱</th>
+    <th>欄位說明</th> 
+    <th>資料格式</th>
+  </tr>
+  <tr>
+    <td>ID</td>
+    <td>ID</td> 
+    <td>int</td>
+  </tr>
+  <tr>
+    <td>Run_time</td>
+    <td>執行時間</td> 
+    <td>datetime(50)</td>
+  </tr>
+  <tr>
+    <td>Eml_datetime</td>
+    <td>寄件時間</td> 
+    <td>datetime</td>
+  </tr>
+  <tr>
+    <td>Eml_from</td>
+    <td>寄件者</td> 
+    <td>nvarchar(MAX)</td>
+  </tr>
+  <tr>
+    <td>Eml_to</td>
+    <td>收件者</td> 
+    <td>nvarchar(MAX)</td>
+  </tr>
+  <tr>
+    <td>Subject</td>
+    <td>標題</td> 
+    <td>nvarchar(MAX)</td>
+  </tr>
+  <tr>
+    <td>Content</td>
+    <td>內容</td> 
+    <td>nvarchar(MAX)</td>
+  </tr>
+  <tr>
+    <td>Pdf_name</td>
+    <td>附檔名稱</td> 
+    <td>nvarchar(MAX)</td>
+  </tr>
+  <tr>
+    <td>MessageID</td>
+    <td>Email ID</td> 
+    <td>nvarchar(MAX)</td>
+  </tr>
+  <tr>
+    <td>Uid</td>
+    <td>POP ID</td> 
+    <td>nvarchar(MAX)</td>
+  </tr>
+  <tr>
+    <td>TFs</td>
+    <td>Email內容詞頻分析</td> 
+    <td>nvarchar(MAX)</td>
+  </tr>
+</table>
   </ul>
 </ul>
 
