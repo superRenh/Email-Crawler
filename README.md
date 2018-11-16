@@ -133,3 +133,9 @@
 4. 下載連接pop server套件</br>
 `pip install poplib`</br>
 ## <ins>config檔設定<ins>
+<ol>
+  <li></li>
+  <li></li>
+  <li></li>
+</ol>
+<img src="https://github.com/superRenh/Email-Crawler/blob/master/images/config.JPG" width="80%" height="80%" style="float.center">
