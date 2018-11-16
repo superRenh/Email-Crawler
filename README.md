@@ -22,6 +22,11 @@
     <th>資料格式</th>
   </tr>
   <tr>
+    <td>ID</td>
+    <td>table index</td> 
+    <td>int</td>
+  </tr>
+  <tr>
     <td>Eml_datetime</td>
     <td>寄件時間</td> 
     <td>datetime</td>
@@ -61,7 +66,7 @@
   </tr>
   <tr>
     <td>ID</td>
-    <td>ID</td> 
+    <td>table index</td> 
     <td>int</td>
   </tr>
   <tr>
