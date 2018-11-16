@@ -40,4 +40,5 @@
   </ul>
 </ul>
 
-## <ins>Environment setup環境設定(Python3.6, MSSQL)<ins>
+## <ins>環境設定(Python3.6, MSSQL)<ins>
+## <ins>config檔設定<ins>
