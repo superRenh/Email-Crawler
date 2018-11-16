@@ -1,0 +1,5 @@
+{
+    "DB": ["DRIVER={SQL Server};SERVER=Server name;DATABASE=database name;UID=uid;PWD=password"],
+    "email_from": [".*@hotmail.com$"],
+    "save": ["path"]
+}
