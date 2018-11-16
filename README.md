@@ -132,5 +132,4 @@
 `pip install jieba`</br>
 4. 下載連接pop server套件</br>
 `pip install poplib`</br>
-5. others: <a href="https://github.com/superRenh/Earthsquad/blob/master/requirement.txt">Requirement.txt</a>
 ## <ins>config檔設定<ins>
