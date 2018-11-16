@@ -75,7 +75,6 @@ for r in rows:
 	dic_UID[r[0]]=1
 
 #串接pop server，取得所有email的messageID
-import poplib
 poplib._MAXLINE=20480
 server='outlook.office365.com'
 port=995
@@ -171,7 +170,7 @@ for i in range(numMessage):
 
 #或可call SQL function重新命名檔名
 """
-	SQLFunc="select dbo.callfunctionname(?,?,?,?,?)"
+	SQLFunc="select dbo.callfunctionname(?,?,?)"
 	cursor.execute(SQLFunc,column1,column2,column3)
 	rows=cursor.fetchall()
 	cnxn.commit()
@@ -186,7 +185,7 @@ for i in range(numMessage):
 				f.write(attachment.get_payload(decode=True,))
 		except (Exception):
 			pass
-	Pdf_name=str(Pdf_name_1)+os.path.splitext(fname)[1]
+	Pdf_name=str(fname)
 # 寫入email_pop資料表(每讀取一次，寫入一次，並輸出報錯的MessageID)
 	try:
 		SQLCommand = ("INSERT INTO email_pop(Run_time, uid, Eml_datetime, Subject, Content, Pdf_name,Eml_from,Eml_to,MessageID,TFs) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")
