@@ -37,11 +37,6 @@
     <td>datetime</td>
   </tr>
   <tr>
-    <td>time</td>
-    <td>執行時間</td> 
-    <td>datetime</td>
-  </tr>
-  <tr>
     <td>MessageID</td>
     <td>Email ID</td> 
     <td>nvarchar(MAX)</td>
@@ -57,6 +52,7 @@
     <td>nvarchar(MAX)</td>
   </tr>
 </table>
+      <li>email_pop：</li>
   </ul>
 </ul>
 
