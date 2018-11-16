@@ -7,7 +7,7 @@
   <li>爬取欄位：</li>
   Email的標題、內容、寄件者、收件者、寄件時間、Message ID、附件檔案(另存於指定資料夾)、並從內容中分析出每封信的詞頻(Term Frequency)
   <li>運作模式：</li>
-    <ol>
+    <ol type='1'>
       <li>將爬取過的Email存入eml_log資料表，後續用於判別不重複爬取。</li>
       <li></li>
       <li></li>
