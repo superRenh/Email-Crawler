@@ -134,8 +134,8 @@
 `pip install poplib`</br>
 ## <ins>config檔設定<ins>
 <ol>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>"DB": 設定資料庫相關訊息driver, server, database name, uid, password。</li>
+  <li>"email_from":設定指定爬取的寄件者格式，或設置為空，不做限制。</li>
+  <li>"save": 設定附件檔案下載路徑。</li>
 </ol>
 <img src="https://github.com/superRenh/Email-Crawler/blob/master/images/config.JPG" width="80%" height="80%" style="float.center">
