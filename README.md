@@ -13,7 +13,11 @@
       <li>將存入email_pop資料表的Email，於POP Server端刪除。</li>
     </ol>
   <li>爬取規則：</li>
-  指定寄件者格式。
+    <ol type="1">
+      <li>排除已爬取過並存入資料庫的Email，僅爬取新增的Email，縮短每次爬取的時間。</li>
+      <li>指定寄件者格式，或不指定全部爬取。</li>
+      <li>可以選擇排除沒有附件檔案的email。</li>
+    </ol>
   <li>Database資料表：</li>
     <ul>
       <li>eml_log：</li>
