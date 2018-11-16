@@ -7,6 +7,8 @@
   <li>爬取欄位：</li>
   Email的標題、內容、寄件者、收件者、寄件時間、Message ID、附件檔案(另存於指定資料夾)、詞頻(Term Frequency) 
   <li>Database資料表：</li>
+    <ul>
+      <li>eml_log：</li>
   <table style="width:100%">
   <tr>
     <th>欄位名稱</th>
@@ -24,6 +26,7 @@
     <td>nvarchar(50)</td>
   </tr>
 </table>
+  </ul>
 </ul>
 
 ## <ins>Environment setup環境設定(Python3.6, MSSQL)<ins>
